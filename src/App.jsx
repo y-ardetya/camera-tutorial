@@ -45,8 +45,7 @@ const Scene = () => {
       <fog attach="fog" args={[bgColor, 0, 25]} />
       <ambientLight intensity={1} />
       <directionalLight position={[-5, 5, -5]} intensity={1} />
-      //* Model
-      //* Perspective Camera is derived from theatre r3f
+      //* Model //* Perspective Camera is derived from theatre r3f
       <PerspectiveCamera
         theatreKey="Camera"
         makeDefault
